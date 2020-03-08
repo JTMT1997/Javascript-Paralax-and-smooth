@@ -1,0 +1,44 @@
+*{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Arial;
+	height: 100vh;
+	width: 100%;
+
+}
+
+h2{
+	font-size: 50px;
+	background: #eee;
+	padding: 8px 24px;
+	border-radius: 16px;
+}
+
+div:nth-child(1){
+	background: url(https://ecs7.tokopedia.net/img/cache/700/product-1/2017/1/27/254956/254956_9dfeb056-b2e4-46dc-b63c-b083d7990968.jpg);
+	background-size: cover;
+}
+
+div:nth-child(2){
+	background: green;
+}
+
+div:nth-child(3){
+	/* height: 400px; */
+	background-image: url(https://matracomputer.com/254-thickbox_default/paket-komputer-sekolah-hp-3000-sff-core-2-duo-tower-lcd-17-inch-square.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+	}
+
+div:nth-child(4){
+	background: blue;
+
+}	
